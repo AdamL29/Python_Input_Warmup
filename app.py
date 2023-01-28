@@ -11,6 +11,8 @@ def prompt():
     # print("2. Display all thoughts")
     # print("3. Exit")
     selection = input("Please enter your selection: ")
+    # if selection == "test":
+        # raise ZeroDivisionError (This is a manually raise exception!)
     return selection
 
 def get_thought():
